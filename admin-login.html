@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Login</title>
+</head>
+<body>
+  <h2>Admin Access</h2>
+  <form onsubmit="checkPassword(); return false;">
+    <input type="password" id="password" placeholder="Enter Admin Password">
+    <button type="submit">Login</button>
+  </form>
+
+  <script>
+    function checkPassword() {
+      var pass = document.getElementById("password").value;
+      if (pass === "sanjay") {
+        window.location.href = "dashboard.html";
+      } else {
+        alert("Wrong password!");
+      }
+    }
+  </script>
+</body>
+</html>
