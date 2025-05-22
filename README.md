@@ -1,1 +1,0 @@
-# pudhurmariyamman-charatable-trust
